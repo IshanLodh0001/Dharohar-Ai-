@@ -1,14 +1,11 @@
 /**
- * Simple JSON-file storage for inspections.
- * Data is persisted in data/inspections.json inside the project root.
+ * LocalStorage based storage for inspections.
+ * Replaces the server-side JSON file approach for GitHub Pages compatibility.
  */
 
-import fs from 'fs';
-import path from 'path';
 import { AllModelResults } from './roboflow';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
-const DATA_FILE = path.join(DATA_DIR, 'inspections.json');
+const STORAGE_KEY = 'dharohar_inspections_data';
 
 export interface InspectionRecord {
   id: string;
@@ -17,22 +14,18 @@ export interface InspectionRecord {
   inspectionDate: string;
   inspectorName: string;
   notes: string;
-  imagePath: string; // relative to /public, e.g. "/uploads/abc123/original.jpg"
+  imagePath: string; // Will just be empty string or local object URL in client-only mode
   imageWidth?: number;
   imageHeight?: number;
   results: AllModelResults;
   createdAt: string;
 }
 
-function ensureDataDir() {
-  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-}
-
 function readAll(): InspectionRecord[] {
-  ensureDataDir();
-  if (!fs.existsSync(DATA_FILE)) return [];
+  if (typeof window === 'undefined') return [];
   try {
-    const raw = fs.readFileSync(DATA_FILE, 'utf8');
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
     return JSON.parse(raw) as InspectionRecord[];
   } catch {
     return [];
@@ -40,8 +33,12 @@ function readAll(): InspectionRecord[] {
 }
 
 function writeAll(records: InspectionRecord[]) {
-  ensureDataDir();
-  fs.writeFileSync(DATA_FILE, JSON.stringify(records, null, 2), 'utf8');
+  if (typeof window === 'undefined') return;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(records));
+  } catch (err) {
+    console.error('Failed to save to localStorage', err);
+  }
 }
 
 export function saveInspection(record: InspectionRecord): void {

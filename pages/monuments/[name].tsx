@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Layout from '../../components/Layout';
+import { getInspectionsByMonument } from '../../lib/storage';
 
 function StatusBadge({ status }: { status: string }) {
   const map: Record<string, string> = {
@@ -34,15 +35,17 @@ export default function MonumentDetail() {
 
   useEffect(() => {
     if (!name) return;
-    fetch(`/api/monuments/${encodeURIComponent(name as string)}`)
-      .then(r => r.json())
-      .then((data) => {
-        const sorted = [...data].sort(
-          (a: any, b: any) => new Date(a.inspectionDate).getTime() - new Date(b.inspectionDate).getTime()
-        );
-        setInspections(sorted);
-      })
-      .finally(() => setLoading(false));
+    try {
+      const data = getInspectionsByMonument(name as string);
+      const sorted = [...data].sort(
+        (a: any, b: any) => new Date(a.inspectionDate).getTime() - new Date(b.inspectionDate).getTime()
+      );
+      setInspections(sorted);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
   }, [name]);
 
   const latest = inspections[inspections.length - 1];

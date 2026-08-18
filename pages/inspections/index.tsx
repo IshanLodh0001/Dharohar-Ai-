@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Layout from '../../components/Layout';
+import { getAllInspections } from '../../lib/storage';
 
 function StatusBadge({ status }: { status: string }) {
   const map: Record<string, string> = {
@@ -16,10 +17,14 @@ export default function InspectionsPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/inspections')
-      .then(r => r.json())
-      .then(setInspections)
-      .finally(() => setLoading(false));
+    try {
+      const data = getAllInspections();
+      setInspections(data);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   return (
