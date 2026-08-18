@@ -1,0 +1,2285 @@
+[
+  {
+    "id": "472baf87-1b21-42cb-b5c4-7cc51bb8c665",
+    "monumentName": "Unknown Monument",
+    "location": "",
+    "inspectionDate": "2026-08-18",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/472baf87-1b21-42cb-b5c4-7cc51bb8c665/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 222,
+            "height": 134,
+            "x": 111,
+            "y": 80,
+            "confidence": 0.90625,
+            "class_id": 0,
+            "class": "Crack",
+            "detection_id": "81749cd0-1e40-4b59-861d-8fe8643a33a5",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "_44_411OO1O1O010O00O200O0010O1O010O001N1O1O0000000M4O0O20O2IlKLU44501O000010O01O0010O010O0100000O100O01O1O01000O1001N10O100000O010O0010O010O10O100O010N1L4M3I7K50O1GVLIi32?000001O001O100O001O100O1O1000O1000000O01000O10O10O1O1O002O00O100000000O10O1000O10001N10000O1000000O01000O11O00O10000001O00001O1O00010O01O02OO01O00001O1O001N101O1N0kKDT4>00O01O01OO20000M2101OHkK1T4OmK1R4OPL0o31QLOn31TLMl33VLLj34VLLi34;0010O0100000LeKOZ41gK0X4OhK2X4NhK2Y440O0010O01OO02OO1O1IJnK8Q450N3J7O001N11000O100000000000000000O10OD"
+            }
+          }
+        ],
+        "confidence": 90.6,
+        "severity": "High",
+        "count": 1,
+        "score": 65
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 9,
+            "height": 13,
+            "x": 157.5,
+            "y": 39.5,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "01a45924-1fb6-47fb-a4fa-36ad2f56f306",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "gTf06]45K101O01O2IiKLZ4241Yd8"
+            }
+          },
+          {
+            "width": 27,
+            "height": 20,
+            "x": 89.5,
+            "y": 50,
+            "confidence": 0.55859375,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "525de4c2-8d0b-427e-a80b-5dd1a0335e98",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "WQ;2`43N1O1N2O2M3OO01OKmKKR45PLJo37PLJo3>O01000001O000O2H71O1O1000HhK2_4MjTa0"
+            }
+          }
+        ],
+        "confidence": 55.3,
+        "severity": "Medium",
+        "count": 2,
+        "score": 67
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 89,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Crack detected — recommend professional structural inspection and crack sealing.",
+        "Discoloration detected — investigate possible moisture or water intrusion."
+      ]
+    },
+    "createdAt": "2026-08-18T09:26:53.528Z"
+  },
+  {
+    "id": "63d2816c-44a4-4854-ac28-0ea8f6a7b59a",
+    "monumentName": "Unknown Monument",
+    "location": "",
+    "inspectionDate": "2026-08-18",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/63d2816c-44a4-4854-ac28-0ea8f6a7b59a/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 7,
+            "height": 8,
+            "x": 3.5,
+            "y": 153,
+            "confidence": 0.50390625,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "d564322d-ae92-46e3-8c33-b733f6b4b5ff",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                168,
+                300
+              ],
+              "counts": "e48P501N100O2O1Nam_1"
+            }
+          },
+          {
+            "width": 23,
+            "height": 15,
+            "x": 26.5,
+            "y": 148.5,
+            "confidence": 0.58203125,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "fdafbc48-6325-41da-9cdd-e7b435e5085a",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                168,
+                300
+              ],
+              "counts": "Vc22V51N101O1O2N2N1O2N2N0000000001O2N1O0O2O0O2M3NmjZ1"
+            }
+          },
+          {
+            "width": 300,
+            "height": 167,
+            "x": 150,
+            "y": 83.5,
+            "confidence": 0.609375,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "41d28542-5659-4333-970d-35910e41594d",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                168,
+                300
+              ],
+              "counts": "j1h0_420O01O1O100O1O00100O010O000O2O000[MQOR1o0lNSOS1m0mNSOS1m0mNTOR1l0nNQO`N2a2n0nNQOaN4]2k0ROVOaNJ]2P1ROZOm0e0SOYOaNJZ2n0TOXObNH00Z2P1UOWOaNLY2m0WOVO`NMZ2m0UOZOl0i0ROVOn0l0QOSOP1m0oNROR1o0mNQOS1P1mNnNT1S1kNlNU1V1kNhNV1Y1]1O00010O1O0000TOgNiMY1Q2POmMo0Q2UOnMj0Q2ZOlMf0T2]OiMd0V2]OiMc0W2_OgMb0X2@^MXO0Y1c2GZM;e2T1010000O0010O01O1O100001O1N2O1O000O2O000O2O1N3M1O1kMoLR2S32NmMoLo1Q3PNYMg1Y3NbL\\NS3e1hL`NV3`1iLaNX3h1O1SOQNgM5?k1g1]NWNd1g1^NXNb1l0RN\\O>G`1l0UNZO<I`1l0WNXO;K^1i0mMnNb0652\\1i0CVO>k0ASOa0m0@QO`0P1l10nKlNk3Y1201N102M4L3JhKWOZ4c09N2N2O1N1000000000000O1000000001OO20O01O1O001O4L3M1O0000000O100000000001O0WOO[L1b34\\LLc36\\LJc38\\LIb39]LH`3;_LE`3=_LD_3>UL^O36g3d0WL^Oh3b0SLVO29j3e0UL\\Oi3e0VL^Oh3b0XLSO08f3f0_LZO_3d0dL^O[3=iLC]1E1;lN1Q1F45mN6n0F6MQO=i0FV1:jNGU1:jNGU19kNGU19kNGU1:kNEU1;kNEU1;kNFT1<jNFT1=iNEU1`0gNAW1`0hNAW1?iNAW1?jNAU1?kNAU1?kNAU1?lN@T1?nN@R1`0nN@R1?oNAQ1?oNAQ1?oNAQ1?QO_Oo0a0UO[Ok0d0YOYOg0h0l11O1O2N1O1mKQOk3R1PLPOP4U1TLiNe3X1ZLhNf3Y14000000000000002NBVL_Oi3?[L_Oe3`0\\L@d3`0\\L@d3a0[L_Oe3a0]L\\Od3e0]LYOc3j0ULTO12i3P1VLQO61T3n0fLSO03Z3b1O1O1O001O2N2N001O001O001O2N2N1O1O1O001cNaMgN2R1]27aMgN2R1]27aMiN0P1_27aMO`2\\10000000WOaMUN2=]2]1kMaNU2^1mMaNS2\\1PNdNP2Z1QNfNP2Y1PNiNR1EUOa1JjNQ1FTO`1KjNl0LXOY1J^N@=]12SOT1NkNCB\\1a0POS11iNDC[1b0nNS12iNDB]1c0jNU15eNDB^1f0dNW18bNEB\\1h0eNV19dNS1X2lNgMU1Z2kNeMG_O\\1n2kNfMU1Z2iNgMX1Y2gNgM\\1W2cNiM]1Y2aNgM_1Q3O1001O001O1O001_L_NY3i1dLVNP11T1l1lMRN00l03TOMQ2R2bNnME1IOP2S2TNnM1050FOP2S2oMTN4KLN:5e1W2TNiMN1O0o1V2SNjMN:n1V2RNjMn1b2SNRMl1m2UNSMk1o2SNQM4Lc1Z3\\NfLd1T3ZNPM1Le1S3[NRMh1o2XNPMh1W31LVNjL5O]1W3_NjL31\\1V3`NiL4O^1\\3^NdLe1U3ZNkL05i1o2XNUMe1W308eN\\La0e3ZOWLL5j0\\4XOQL"
+            }
+          }
+        ],
+        "confidence": 56.5,
+        "severity": "Medium",
+        "count": 3,
+        "score": 59
+      },
+      "overallScore": 93,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Vegetation growth detected — remove vegetation immediately and monitor root growth to prevent structural damage."
+      ]
+    },
+    "createdAt": "2026-08-18T04:16:06.821Z"
+  },
+  {
+    "id": "8f4ffa0d-feb8-4ecf-94c9-e171d0c11e75",
+    "monumentName": "Unknown Monument",
+    "location": "",
+    "inspectionDate": "2026-08-18",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/8f4ffa0d-feb8-4ecf-94c9-e171d0c11e75/original.jpg",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 675.5,
+            "y": 255.5,
+            "width": 383,
+            "height": 511,
+            "confidence": 0.750372052192688,
+            "class": "No Damage",
+            "class_id": 3,
+            "detection_id": "3c77c089-bfcb-4c1a-bbb9-61ba6d2f412a"
+          },
+          {
+            "x": 188,
+            "y": 280,
+            "width": 376,
+            "height": 560,
+            "confidence": 0.6075727939605713,
+            "class": "No Damage",
+            "class_id": 3,
+            "detection_id": "37b0f30b-e82f-4033-bf1b-0d686986f74d"
+          },
+          {
+            "x": 187.5,
+            "y": 342,
+            "width": 375,
+            "height": 668,
+            "confidence": 0.491061806678772,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "81016e17-40a2-4276-ab83-0e2102bdfc53"
+          }
+        ],
+        "confidence": 61.6,
+        "severity": "Medium",
+        "count": 3,
+        "score": 58
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 93,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer."
+      ]
+    },
+    "createdAt": "2026-08-18T04:14:32.527Z"
+  },
+  {
+    "id": "13abd222-df2d-408d-9a7f-6fc7fc90dfbc",
+    "monumentName": "Unknown Monument",
+    "location": "",
+    "inspectionDate": "2026-08-18",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/13abd222-df2d-408d-9a7f-6fc7fc90dfbc/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 222,
+            "height": 134,
+            "x": 111,
+            "y": 80,
+            "confidence": 0.90625,
+            "class_id": 0,
+            "class": "Crack",
+            "detection_id": "67370880-2256-45c8-b11b-f9df8c172fcd",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "_44_411OO1O1O010O00O200O0010O1O010O001N1O1O0000000M4O0O20O2IlKLU44501O000010O01O0010O010O0100000O100O01O1O01000O1001N10O100000O010O0010O010O10O100O010N1L4M3I7K50O1GVLIi32?000001O001O100O001O100O1O1000O1000000O01000O10O10O1O1O002O00O100000000O10O1000O10001N10000O1000000O01000O11O00O10000001O00001O1O00010O01O02OO01O00001O1O001N101O1N0kKDT4>00O01O01OO20000M2101OHkK1T4OmK1R4OPL0o31QLOn31TLMl33VLLj34VLLi34;0010O0100000LeKOZ41gK0X4OhK2X4NhK2Y440O0010O01OO02OO1O1IJnK8Q450N3J7O001N11000O100000000000000000O10OD"
+            }
+          }
+        ],
+        "confidence": 90.6,
+        "severity": "High",
+        "count": 1,
+        "score": 65
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 9,
+            "height": 13,
+            "x": 157.5,
+            "y": 39.5,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "eaf72cac-ee12-482a-804b-e83185714b19",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "gTf06]45K101O01O2IiKLZ4241Yd8"
+            }
+          },
+          {
+            "width": 27,
+            "height": 20,
+            "x": 89.5,
+            "y": 50,
+            "confidence": 0.55859375,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "0281d270-24af-45f8-b775-29683d2aed07",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "WQ;2`43N1O1N2O2M3OO01OKmKKR45PLJo37PLJo3>O01000001O000O2H71O1O1000HhK2_4MjTa0"
+            }
+          }
+        ],
+        "confidence": 55.3,
+        "severity": "Medium",
+        "count": 2,
+        "score": 67
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 89,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Crack detected — recommend professional structural inspection and crack sealing.",
+        "Discoloration detected — investigate possible moisture or water intrusion."
+      ]
+    },
+    "createdAt": "2026-08-18T04:12:57.341Z"
+  },
+  {
+    "id": "126f93e7-5449-4695-99e0-b6f6f57d25cc",
+    "monumentName": "Konark Sun Temple ",
+    "location": "",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/126f93e7-5449-4695-99e0-b6f6f57d25cc/original.jpeg",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 292,
+            "y": 261,
+            "width": 52,
+            "height": 104,
+            "confidence": 0.4690062999725342,
+            "class": "Major Damage",
+            "class_id": 1,
+            "detection_id": "e685ad85-3ae9-4f75-8727-df873ba4b901"
+          }
+        ],
+        "confidence": 46.9,
+        "severity": "Low",
+        "count": 1,
+        "score": 78
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 96,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer."
+      ]
+    },
+    "createdAt": "2026-08-17T14:32:48.970Z"
+  },
+  {
+    "id": "de7648a7-7404-4a17-aec2-a7628ac0e87c",
+    "monumentName": "Ellora cave ",
+    "location": "",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/de7648a7-7404-4a17-aec2-a7628ac0e87c/original.jpg",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 813.5,
+            "y": 506,
+            "width": 153,
+            "height": 114,
+            "confidence": 0.6570189595222473,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "5b25cb34-787a-4394-a921-184d17f4abd8"
+          },
+          {
+            "x": 323,
+            "y": 403.5,
+            "width": 160,
+            "height": 113,
+            "confidence": 0.5833200812339783,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "f9bc6a30-afaf-4d79-b052-2f7031dffae0"
+          },
+          {
+            "x": 323,
+            "y": 196.5,
+            "width": 236,
+            "height": 103,
+            "confidence": 0.4344611167907715,
+            "class": "Major Damage",
+            "class_id": 1,
+            "detection_id": "4534ca39-de0f-439e-8db4-22fea68784cf"
+          },
+          {
+            "x": 777,
+            "y": 118,
+            "width": 108,
+            "height": 84,
+            "confidence": 0.43350082635879517,
+            "class": "Major Damage",
+            "class_id": 1,
+            "detection_id": "32966c1a-f7f3-4165-bf85-88f24f8458a7"
+          },
+          {
+            "x": 849,
+            "y": 581,
+            "width": 224,
+            "height": 36,
+            "confidence": 0.4209938049316406,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "53ee0516-ba13-4171-bd35-afceb3fb5731"
+          },
+          {
+            "x": 960.5,
+            "y": 51.5,
+            "width": 79,
+            "height": 79,
+            "confidence": 0.41195130348205566,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "a964865b-5b84-4666-8439-84a3f6709c43"
+          }
+        ],
+        "confidence": 49,
+        "severity": "High",
+        "count": 6,
+        "score": 37
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 44,
+            "height": 35,
+            "x": 589,
+            "y": 44.5,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "d78669bf-ecc7-4b61-be34-c52e65e09079",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "cX\\:7`b03M5J3N102M2N2N00100O100O100O10000O101N101OM2O2O10O10O100O100O1O10000O1O2O0O4M4K3M3N1MblS7"
+            }
+          },
+          {
+            "width": 102,
+            "height": 90,
+            "x": 867,
+            "y": 527,
+            "confidence": 0.5546875,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "a4e98a83-71ae-4a2c-b06d-a10f00db5f11",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "Tcn>6`b04g]OGoa0e0L1O001O010O001N2O1O1O1O2N2N2N3N2M10O1O1O5K1N1O1O1N1010000O011N10c^OWOl`0h0o^O_OPa0`0o^OBTa0Jg^O571`a0Ic^O7oa03N100O2N3MO1O100N1O3M5K3M\\R45X[KLia08R^OKma0a0N3N1O3M1O3M0010O102M2N010O1O010O010O00010O00000000O1001O002N2N1O1O1O1M3K5N2O2M3KU`_1"
+            }
+          },
+          {
+            "width": 31,
+            "height": 40,
+            "x": 399.5,
+            "y": 109,
+            "confidence": 0.5703125,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "d69480ac-50ff-498e-b908-932148a85996",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "USQ73bb04M4M2N3L6K2O1N101O001N10001O1O2N2O0O2O1OO2N3M1O2M2N2F:N2M5K_ef:"
+            }
+          },
+          {
+            "width": 140,
+            "height": 80,
+            "x": 70,
+            "y": 241,
+            "confidence": 0.5234375,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "60544ad7-e491-4bc6-bda3-6545b37458b5",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "o639?ONj`0CW_O?ONi`0DW_OW1i`0iNV_OX1j`0gNW_OZ1h`0fNW_O[1i`0eNU_O]1k`0dNS_O]1m`0cNS_O]1m`0cNS_O^1k`0cNU_O^1j`0cNW_O\\1h`0dNX_O\\1h`0dNX_O\\1g`0dNZ_O\\1f`0dNZ_O\\1f`0gNW_OY1i`0;00000O100000O10O1000000000O0010O100J6O1O10O001000O10000O1000O10O10000O2O00O10O10000O1000000O10M21000O10O10000O1000000O100O1000000O1O100O010O010O0100O0100O1hNd^OT1\\a040O1000O010O10O10O0100O1O100O010O1@`^OH`a06c^OI]a06d^OI]a06e^OI[a06f^OJZa06g^OIYa06h^OIYa07g^OIYa06i^OHXa07e000O1O100O100O100O100O100O002O0O2Nffg?"
+            }
+          },
+          {
+            "width": 88,
+            "height": 56,
+            "x": 651,
+            "y": 28,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "383962f4-bbbf-41a8-8a15-ce0212d7f643",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "RfS;1db05L3O1N2N2\\OKc^O7[a0N_^O3aa0c0O1O001O001O001O001O1O1O001O4L5K2N1O000000O100O100O1O1N2N2M3M3N2N2N2O1O1O100O1O1O100O1O10000O100O100O100O100O1O1O1O1O1O1O100O1O1O1O1N2N3O0O2N10001O0002OO01ON3Mefb5"
+            }
+          },
+          {
+            "width": 28,
+            "height": 24,
+            "x": 760,
+            "y": 569,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "a9813ab7-c374-4016-8adc-f8bed6a066b6",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "Qee=4bb03O2N2h]OGma0d0N0001O001OO0010O0100O0101N101O1O2M3N2M4M2N1N2OckS4"
+            }
+          },
+          {
+            "width": 66,
+            "height": 34,
+            "x": 462,
+            "y": 93,
+            "confidence": 0.578125,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "2f69ae30-a669-44c9-b75a-a5ea1765c882",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "f^k76ab03N1N1O2O0O100O100O1O100O1O1O1O2O0O10000O101O001O0O101O0O2O00000O2O000O10O1000O10O100O1O1O1O100O1O1O100O1O2N100O2N101N2O1N2N2N2N3LTjW9"
+            }
+          },
+          {
+            "width": 32,
+            "height": 34,
+            "x": 516,
+            "y": 71,
+            "confidence": 0.57421875,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "d540c590-ef13-423c-b037-d05bbc04278b",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                600,
+                1000
+              ],
+              "counts": "nPU96ab05K2N100O1O2O0O=D1N101N1000000000O100O100O100O2N2O1O1N3_Oo]O6\\b0N1O2LiTb8"
+            }
+          }
+        ],
+        "confidence": 55.5,
+        "severity": "High",
+        "count": 8,
+        "score": 33
+      },
+      "overallScore": 78,
+      "overallStatus": "MODERATE",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer.",
+        "Vegetation growth detected — remove vegetation immediately and monitor root growth to prevent structural damage."
+      ]
+    },
+    "createdAt": "2026-08-17T14:29:02.329Z"
+  },
+  {
+    "id": "1a26cc81-540b-4226-9bcd-c2b2ec815495",
+    "monumentName": "Raigad Fort",
+    "location": "",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/1a26cc81-540b-4226-9bcd-c2b2ec815495/original.png",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 100,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "No significant deterioration detected. Continue routine monitoring and preventive maintenance."
+      ]
+    },
+    "createdAt": "2026-08-17T14:22:57.593Z"
+  },
+  {
+    "id": "4e6ce90a-e977-4b18-91d0-3d71473c99d0",
+    "monumentName": "Unknown Monument",
+    "location": "",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/4e6ce90a-e977-4b18-91d0-3d71473c99d0/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 222,
+            "height": 134,
+            "x": 111,
+            "y": 80,
+            "confidence": 0.90625,
+            "class_id": 0,
+            "class": "Crack",
+            "detection_id": "dc29e683-9b6a-49ef-a3d6-9d81c2b2d344",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "_44_411OO1O1O010O00O200O0010O1O010O001N1O1O0000000M4O0O20O2IlKLU44501O000010O01O0010O010O0100000O100O01O1O01000O1001N10O100000O010O0010O010O10O100O010N1L4M3I7K50O1GVLIi32?000001O001O100O001O100O1O1000O1000000O01000O10O10O1O1O002O00O100000000O10O1000O10001N10000O1000000O01000O11O00O10000001O00001O1O00010O01O02OO01O00001O1O001N101O1N0kKDT4>00O01O01OO20000M2101OHkK1T4OmK1R4OPL0o31QLOn31TLMl33VLLj34VLLi34;0010O0100000LeKOZ41gK0X4OhK2X4NhK2Y440O0010O01OO02OO1O1IJnK8Q450N3J7O001N11000O100000000000000000O10OD"
+            }
+          }
+        ],
+        "confidence": 90.6,
+        "severity": "High",
+        "count": 1,
+        "score": 65
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 9,
+            "height": 13,
+            "x": 157.5,
+            "y": 39.5,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "f8835024-0e37-4836-84dc-76b96f2c105b",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "gTf06]45K101O01O2IiKLZ4241Yd8"
+            }
+          },
+          {
+            "width": 27,
+            "height": 20,
+            "x": 89.5,
+            "y": 50,
+            "confidence": 0.55859375,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "adf7cf02-296c-44c1-9978-21786f104f04",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "WQ;2`43N1O1N2O2M3OO01OKmKKR45PLJo37PLJo3>O01000001O000O2H71O1O1000HhK2_4MjTa0"
+            }
+          }
+        ],
+        "confidence": 55.3,
+        "severity": "Medium",
+        "count": 2,
+        "score": 67
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 89,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Crack detected — recommend professional structural inspection and crack sealing.",
+        "Discoloration detected — investigate possible moisture or water intrusion."
+      ]
+    },
+    "createdAt": "2026-08-17T14:11:33.192Z"
+  },
+  {
+    "id": "e13617c7-a7da-4de6-9a8f-0bcffa69b3ed",
+    "monumentName": "Unknown Monument",
+    "location": "",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "",
+    "notes": "",
+    "imagePath": "/uploads/e13617c7-a7da-4de6-9a8f-0bcffa69b3ed/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "fetch failed"
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "fetch failed"
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "fetch failed"
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "fetch failed"
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "fetch failed"
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "fetch failed"
+      },
+      "overallScore": 0,
+      "overallStatus": "CRITICAL",
+      "recommendations": [
+        "No significant deterioration detected. Continue routine monitoring and preventive maintenance."
+      ]
+    },
+    "createdAt": "2026-08-17T14:02:40.581Z"
+  },
+  {
+    "id": "8830a095-6c12-4eee-a987-0fd56082a0ce",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/8830a095-6c12-4eee-a987-0fd56082a0ce/original.png",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 100,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "No significant deterioration detected. Continue routine monitoring and preventive maintenance."
+      ]
+    },
+    "createdAt": "2026-08-17T13:47:56.444Z"
+  },
+  {
+    "id": "efb9ec5e-ad1b-4551-8401-8928e5eaffb7",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/efb9ec5e-ad1b-4551-8401-8928e5eaffb7/original.png",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 206,
+            "height": 139,
+            "x": 496,
+            "y": 390.5,
+            "confidence": 0.5625,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "1e8e99e8-2cfc-463e-9b72-84cc5f81ee41",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                460,
+                725
+              ],
+              "counts": "]o`53P>NUB6i=7O100O2O000000000N2001OO2J]OaBd0]=^ObBb0]=@bBa0]=_ObBc0\\=700O1jNQOnDP1P;SOkDMROR1R<SOUDO8Q1U;kNgDf00`0Y;jNaD2MW2h;kMVDV2j;jMVDW2h;70OL_M^Db2a;aM]D_2];;00O100N010N0M6L4M3O2N1O3N2M1000001O0000000O10000O100O100O1O2N100O1N2O1O100O1O1O1N200O100O101OO100001O0000O11O00000000000000O0100000O1001O00001O000001O0000000O100O100K5N2O1N20O0101N100001O00O1000001O0O1O100000001O0000000O100O1O100O1O1O2O0O1010O100O01O0O2O001O1O010O100O1_MPEe1Q;WNSEg1n:VNUEi1m:oMYEo1BgMW;4\\EV2];10O00010O01O1QDdMm;[22N3K4^NjCm0X<mNoCQ1R<mNQDh0HQOZ<5QDe0Z<YOiCd0Z<YOgCg0P=N1O10000O10000O2O0O100L5O1O1M4M5K_Vh1"
+            }
+          }
+        ],
+        "confidence": 56.3,
+        "severity": "Medium",
+        "count": 1,
+        "score": 75
+      },
+      "overallScore": 96,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Vegetation growth detected — remove vegetation immediately and monitor root growth to prevent structural damage."
+      ]
+    },
+    "createdAt": "2026-08-17T13:46:09.184Z"
+  },
+  {
+    "id": "6a5b2603-f335-437a-9448-2d14788f816a",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/6a5b2603-f335-437a-9448-2d14788f816a/original.jpg",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 437.5,
+            "y": 168,
+            "width": 163,
+            "height": 126,
+            "confidence": 0.5016289949417114,
+            "class": "No Damage",
+            "class_id": 3,
+            "detection_id": "9d5617d9-dd52-4a01-820e-5473122de2cd"
+          },
+          {
+            "x": 626.5,
+            "y": 264,
+            "width": 271,
+            "height": 232,
+            "confidence": 0.493089497089386,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "6248fdce-247a-4a27-8ee3-70703d50a893"
+          },
+          {
+            "x": 439.5,
+            "y": 168.5,
+            "width": 163,
+            "height": 131,
+            "confidence": 0.46268415451049805,
+            "class": "Major Damage",
+            "class_id": 1,
+            "detection_id": "c23aae4c-bb8b-4e8c-98f9-599ab1de608a"
+          },
+          {
+            "x": 659.5,
+            "y": 438,
+            "width": 69,
+            "height": 54,
+            "confidence": 0.44863277673721313,
+            "class": "Major Damage",
+            "class_id": 1,
+            "detection_id": "f6e36072-50aa-4c36-bf5a-c96531cb9ec1"
+          },
+          {
+            "x": 340.5,
+            "y": 119.5,
+            "width": 153,
+            "height": 115,
+            "confidence": 0.4075561761856079,
+            "class": "Major Damage",
+            "class_id": 1,
+            "detection_id": "c634d255-3ed6-446d-951a-7c009919cf2d"
+          }
+        ],
+        "confidence": 46.3,
+        "severity": "Medium",
+        "count": 5,
+        "score": 46
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 314,
+            "height": 190,
+            "x": 743,
+            "y": 455,
+            "confidence": 0.5859375,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "60e68c30-8dee-45e4-ac70-2938b66779bf",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                550,
+                900
+              ],
+              "counts": "PTk91Ta01020N1OYO0X@1\\OOX`01[@0\\O1X`0O\\@4d?M[@3e?Mj_ON=5i?K]@4[`000O2O^`0Oc_O1O1N101N10001O2N1l_OGY?:h02O1O1O001O2M5o_OYO[?j0b@WO]?k0a@UO_?k0>001O1O1O001O001n_OoNm?V1S@jNh?Z10001O001O3M9G:F3M7_AiMf=S3H4L1O2N3M100O1O10O02O00O01O101N8I0O1O3M1O1O0O2O0000000000001O00001N10001N101N1O2O1N101N10001N2O1O1N3N1O4L1O2N1WDkJL3Z;U5eDUKY;\\50001O0000000000000000000001O00000000000000001O0000000000001O0000000000O100000000O01001OO10O10000000000000000000000000000000O1O10001O0O1IgDaJY;_5701O000000000000001O0000001O000O101O0O100001O001O3M100O2N1O1O1O00O2O00010O001O1O2N2N1[KZDi3f;TL^Dj3c;TL`Dj3`;VLcDg3^;WLeDg3];kKZDO=T4\\<O2N1O0XLmB]3T=^LmBL1e3]=01O0000O1000000O10000O100000001O0O100O1O1O100O1O1O1O2N1O001000000O1000O10001O00001O2N1O1O1O00001O@_L[Ca3d<aL[C_3d<cL[C]3d<eLZC\\3e<c0O100O1O1O100N2N2N2N200O11O00001O0O101M200O2N3cL]Ce02YONnNf<1cC;KB0`0L30_O257JIc0OA2Kd<3bC;KB0`0L30_O257JIc0OA2K6"
+            }
+          },
+          {
+            "width": 689,
+            "height": 174,
+            "x": 555.5,
+            "y": 87,
+            "confidence": 0.6015625,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "1b06fa8b-82b3-479c-9f3c-81fb97a1d5c7",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                550,
+                900
+              ],
+              "counts": "P[a32Ta01N3N1N2O1N101N2N2N2N2N2N2O1N2N102M2O1N2N2O1O1O2N1O1O1O1O1O2N1O1O1O1O002N1O2N0011O1OO20O00O1000000O1O100000000O0100001N1O1O2O0O1O010O0100O01O01O010O0001O000O101O0O1O101N100O2O00001O00001O0000001O000001O01O01O0010O01O00100O0010O000010O0001O0000001O001O00001O0000001O0001O01O00001O00000010O001O0001O0001O00000000O10000O100O100O100O100000O2O001O001O1O001O1O1O001O001O1O00001O00001O00001O001O001O0010000O00100O101OO110O1N10O01O1O1O010N10001O00001O001O001N101N10001O001O001O00001O01O010O001O101N1O2N100O1O1O0001O001O000000001O0000O10000O100O2O000O100O10O01000O0100000O1000O10001O000010O01O001O00001O001O00010O0011O0O2O0000O1O2N2O0O1O100O00000001N10000O2O00001O001O1O4L2N2N001O001O0O100000001O00000O2O001O1O1L^MaAd2Y>^MgAe2X>500O1O1O1O110O0010O1N2O100O1000000VMgAg2`=XMbB0=m2P=YMoBg2o<\\MPCR2DTNZ=KRCQ2DTNY=MQCP2FSNV=2oB_OJ]20RNQ=9TCh1KoMn<=TCf1NmMm<U3SClLl<T3TClLk<T3VClLj<T3VClLj<T3VClLj<T3VCmLh<S3YCmLg<S3YCmLg<S3YCmLg<R3ZCnLf<R3[CmLe<S3[CmLg<Q3\\ClLd<?WCd16lMc<<YCi16kM`<6`Co10kM`<5`CQ21iM`<4`CR21jM_<3`CT22hM^<3aCT22iM^<2_CV23hM^<0aCX21hM`<M`C[2OiMb<J_C^2OhMX=X2hBhMX=X2iBgMV=[2iBeMW=[2iBeMV=\\2jBcMV=^2jBbMV=]2kBcMT=^2lBbMT=^2lBbMT=^2kBcMT=]2mBcMS=]2lBdMT=\\2lBcMU=\\2kBeMU=[2kBeMT=\\2lBdMT=\\2mBcMS=]2nBbMR=^2nBbMR=]2oBcMQ=]2oBcMQ=]2oBcMQ=]2PCbMQ=]2oBcMQ=]2oBcMR=[2oBeMR=Z2nBeMT=Y2mBgMS=Y2mBgMT=X2lBhMT=W2mBiMS=V2nBjMR=V2nBjMQ=V2PCjMP=V2PCjMP=V2QCiMn<X2RChMn<W2RCjMY<OYCZ2>gMX<l2hCSMX<n2hCRMW<n2jCSMT<n2lCRMS<o2mCQMS<n2nCRMQ<o2oCQMP<o2QDQMo;n2RDRMm;n2TDSMk;l2VDTMi;l2XDTMh;k2YDUMg;k2YDUMg;k2YDUMf;k2[DVMd;j2\\DVMd;j2\\DVMd;j2\\DVMd;i2]DWMc;i2]DWMc;i2]DWMc;i2]DWMc;h2^DXMb;h2^DXMb;h2^DXMb;h2^DWMc;h2^DXMa;i2_DWMa;i2_DWMb;h2^DXMb;h2^DXMb;g2_DYMa;g2_DXMa;i2_DWMb;h2^DXMb;g2_DYMb;f2^DZMb;f2^DZMc;e2]DZMe;e2[D[Mf;d2ZD\\Mi;a2XD]Ml;`2TD`Mn;^2RDbMW<U2iCkMY<S2gCmM[<Q2eCoM]<o1cCPNa<m1`CQNb<OWBl1X1SNf<l1Z10000000000000000O01000000000O010000000000000000O10000000001O0O2O2N3M1O1O1O001O0000000000O01000O1000000O100000O01000000O10000O1000000O1000000000O010000000000O1000O100000O10000O01000O1O0L5O1O1O0O2O1N2N2O1O010O01O100000O01000O100O2N2N1O1N200O100O10000O100O10000O1000000O1000O01000000Oc@nNh>R1PAWOo>i0o@ZOP?f0o@[OR?d0n@\\OR?d0m@^OR?a0n@@R?`0n@_OS?a0m@_OS?a0l@@T?`0l@@T?`0l@@T?`0l@@S?`0n@@R?`0n@@R?`0n@_OS?`0n@@R?`0n@_OS?a0n@]OS?c0o@ZOR?f0g00000000000000000000000000000000000000001O000000000000000O10001N10]N"
+            }
+          }
+        ],
+        "confidence": 59.4,
+        "severity": "Medium",
+        "count": 2,
+        "score": 66
+      },
+      "overallScore": 85,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer.",
+        "Vegetation growth detected — remove vegetation immediately and monitor root growth to prevent structural damage."
+      ]
+    },
+    "createdAt": "2026-08-17T13:42:13.190Z"
+  },
+  {
+    "id": "6ae32bc2-8b08-4ddf-874c-6192efaa0abe",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/6ae32bc2-8b08-4ddf-874c-6192efaa0abe/original.jpeg",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 257.5,
+            "y": 161.5,
+            "width": 175,
+            "height": 259,
+            "confidence": 0.494202196598053,
+            "class": "Minor Damage",
+            "class_id": 2,
+            "detection_id": "07d4f0fe-367e-4e2c-adbd-991a74eb3c15"
+          }
+        ],
+        "confidence": 49.4,
+        "severity": "Low",
+        "count": 1,
+        "score": 77
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 38,
+            "height": 161,
+            "x": 19,
+            "y": 80.5,
+            "confidence": 0.74609375,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "db3b873e-e4ed-4ad8-90bc-ba2ff0247da4",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                619,
+                495
+              ],
+              "counts": "0P5[>0000001OO1000000O10002M2O1N3Mc0]O3VLh@Z3]?aLg@Z3g?M3O1N3]Mo_Oj1Q`0nMZ@n1h?nM[@Q2g?mM[@P2i?lMY@Q2b`0N3L3K5K6L3TO]^OMga01]^OKfa02]^OKfa02]^OKia0O[^OLia01[Vd8"
+            }
+          },
+          {
+            "width": 67,
+            "height": 75,
+            "x": 348.5,
+            "y": 252.5,
+            "confidence": 0.83203125,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "64fb2216-8b9e-411b-a609-5134bd5fc46f",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                619,
+                495
+              ],
+              "counts": "Xdn52Vc06K5M2N2O0O2M3N2M4L3_^OYOY`0Q1\\_OSOb`0o0Z_OUOd`0m0U_OYOj`0e11M2O1N10000O1001O0000000001O1O1O1O001O010O00001O001O001O00010O0000001O00001N102L3N3M3M3M3N2M2M3ZOm]O0Vb0Nl]OOWb0Ok]ONXb01j]OKYb02bRT2"
+            }
+          },
+          {
+            "width": 137,
+            "height": 14,
+            "x": 267.5,
+            "y": 598,
+            "confidence": 0.58984375,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "4ce6d5b6-c268-49f7-bd99-23751b892237",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                619,
+                495
+              ],
+              "counts": "Slh36Tc01O100000001O000000O0100000000000000000000000000O10000000000000001O000000000000000000000O1000O100000000000000000000000000000O1000000000000000O2O00000000000O10001N100O1O1O]nc0NeQ\\O3M10001N10000O1000000000000001O1NUao2"
+            }
+          },
+          {
+            "width": 18,
+            "height": 24,
+            "x": 116,
+            "y": 59,
+            "confidence": 0.6171875,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "65163702-c9e0-46fc-8cd2-1517cd45f373",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                619,
+                495
+              ],
+              "counts": "^gP2:nb05M2N2N2O00001O001O10O1O1O2N2M4J6K\\co6"
+            }
+          },
+          {
+            "width": 27,
+            "height": 50,
+            "x": 159.5,
+            "y": 137,
+            "confidence": 0.7890625,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "836a6544-e046-486b-b084-2c6587973a02",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                619,
+                495
+              ],
+              "counts": "l[h2j0`b07I5L2N2N0O2O000O2O00000002N2O0O00000000O2M1M41O5K3TO`^OE_RS6"
+            }
+          },
+          {
+            "width": 82,
+            "height": 12,
+            "x": 240,
+            "y": 599,
+            "confidence": 0.5078125,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "8e8682dd-6f5a-4002-8a54-cb8c9a0b6a34",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                619,
+                495
+              ],
+              "counts": "Slh36Tc01O100000000000000000000O100001OO10000000000000000O1000000000001O00000000000000000000000O10O10000000000000000000000000000000000000000O1000000000000000001N100O1O3LPiP4"
+            }
+          }
+        ],
+        "confidence": 68,
+        "severity": "High",
+        "count": 6,
+        "score": 32
+      },
+      "overallScore": 85,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer.",
+        "Vegetation growth detected — remove vegetation immediately and monitor root growth to prevent structural damage."
+      ]
+    },
+    "createdAt": "2026-08-17T13:39:46.652Z"
+  },
+  {
+    "id": "e2269338-2bfb-41d4-aeb4-4133404062c8",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/e2269338-2bfb-41d4-aeb4-4133404062c8/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 222,
+            "height": 134,
+            "x": 111,
+            "y": 80,
+            "confidence": 0.90625,
+            "class_id": 0,
+            "class": "Crack",
+            "detection_id": "4348e628-af88-4e98-9faa-590b7602aedc",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "_44_411OO1O1O010O00O200O0010O1O010O001N1O1O0000000M4O0O20O2IlKLU44501O000010O01O0010O010O0100000O100O01O1O01000O1001N10O100000O010O0010O010O10O100O010N1L4M3I7K50O1GVLIi32?000001O001O100O001O100O1O1000O1000000O01000O10O10O1O1O002O00O100000000O10O1000O10001N10000O1000000O01000O11O00O10000001O00001O1O00010O01O02OO01O00001O1O001N101O1N0kKDT4>00O01O01OO20000M2101OHkK1T4OmK1R4OPL0o31QLOn31TLMl33VLLj34VLLi34;0010O0100000LeKOZ41gK0X4OhK2X4NhK2Y440O0010O01OO02OO1O1IJnK8Q450N3J7O001N11000O100000000000000000O10OD"
+            }
+          }
+        ],
+        "confidence": 90.6,
+        "severity": "High",
+        "count": 1,
+        "score": 65
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 9,
+            "height": 13,
+            "x": 157.5,
+            "y": 39.5,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "917b0e48-ac5e-4353-8397-f13e1f2ae5f8",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "gTf06]45K101O01O2IiKLZ4241Yd8"
+            }
+          },
+          {
+            "width": 27,
+            "height": 20,
+            "x": 89.5,
+            "y": 50,
+            "confidence": 0.55859375,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "aa8c6a5a-70e6-44d1-a285-5ea7dcb364cb",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "WQ;2`43N1O1N2O2M3OO01OKmKKR45PLJo37PLJo3>O01000001O000O2H71O1O1000HhK2_4MjTa0"
+            }
+          }
+        ],
+        "confidence": 55.3,
+        "severity": "Medium",
+        "count": 2,
+        "score": 67
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 89,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Crack detected — recommend professional structural inspection and crack sealing.",
+        "Discoloration detected — investigate possible moisture or water intrusion."
+      ]
+    },
+    "createdAt": "2026-08-17T13:39:08.178Z"
+  },
+  {
+    "id": "09ebdf3a-9378-4354-a403-0504d47837b9",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/09ebdf3a-9378-4354-a403-0504d47837b9/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 7,
+            "height": 8,
+            "x": 3.5,
+            "y": 153,
+            "confidence": 0.50390625,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "3fd91761-fccc-4847-966a-d1523154e6a9",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                168,
+                300
+              ],
+              "counts": "e48P501N100O2O1Nam_1"
+            }
+          },
+          {
+            "width": 23,
+            "height": 15,
+            "x": 26.5,
+            "y": 148.5,
+            "confidence": 0.58203125,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "467ca314-8b5c-4b90-bd59-73f81f258d20",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                168,
+                300
+              ],
+              "counts": "Vc22V51N101O1O2N2N1O2N2N0000000001O2N1O0O2O0O2M3NmjZ1"
+            }
+          },
+          {
+            "width": 300,
+            "height": 167,
+            "x": 150,
+            "y": 83.5,
+            "confidence": 0.609375,
+            "class_id": 0,
+            "class": "vegetation",
+            "detection_id": "ab133fc0-462b-484c-bc44-8d4901f56fe8",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                168,
+                300
+              ],
+              "counts": "j1h0_420O01O1O100O1O00100O010O000O2O000[MQOR1o0lNSOS1m0mNSOS1m0mNTOR1l0nNQO`N2a2n0nNQOaN4]2k0ROVOaNJ]2P1ROZOm0e0SOYOaNJZ2n0TOXObNH00Z2P1UOWOaNLY2m0WOVO`NMZ2m0UOZOl0i0ROVOn0l0QOSOP1m0oNROR1o0mNQOS1P1mNnNT1S1kNlNU1V1kNhNV1Y1]1O00010O1O0000TOgNiMY1Q2POmMo0Q2UOnMj0Q2ZOlMf0T2]OiMd0V2]OiMc0W2_OgMb0X2@^MXO0Y1c2GZM;e2T1010000O0010O01O1O100001O1N2O1O000O2O000O2O1N3M1O1kMoLR2S32NmMoLo1Q3PNYMg1Y3NbL\\NS3e1hL`NV3`1iLaNX3h1O1SOQNgM5?k1g1]NWNd1g1^NXNb1l0RN\\O>G`1l0UNZO<I`1l0WNXO;K^1i0mMnNb0652\\1i0CVO>k0ASOa0m0@QO`0P1l10nKlNk3Y1201N102M4L3JhKWOZ4c09N2N2O1N1000000000000O1000000001OO20O01O1O001O4L3M1O0000000O100000000001O0WOO[L1b34\\LLc36\\LJc38\\LIb39]LH`3;_LE`3=_LD_3>UL^O36g3d0WL^Oh3b0SLVO29j3e0UL\\Oi3e0VL^Oh3b0XLSO08f3f0_LZO_3d0dL^O[3=iLC]1E1;lN1Q1F45mN6n0F6MQO=i0FV1:jNGU1:jNGU19kNGU19kNGU1:kNEU1;kNEU1;kNFT1<jNFT1=iNEU1`0gNAW1`0hNAW1?iNAW1?jNAU1?kNAU1?kNAU1?lN@T1?nN@R1`0nN@R1?oNAQ1?oNAQ1?oNAQ1?QO_Oo0a0UO[Ok0d0YOYOg0h0l11O1O2N1O1mKQOk3R1PLPOP4U1TLiNe3X1ZLhNf3Y14000000000000002NBVL_Oi3?[L_Oe3`0\\L@d3`0\\L@d3a0[L_Oe3a0]L\\Od3e0]LYOc3j0ULTO12i3P1VLQO61T3n0fLSO03Z3b1O1O1O001O2N2N001O001O001O2N2N1O1O1O001cNaMgN2R1]27aMgN2R1]27aMiN0P1_27aMO`2\\10000000WOaMUN2=]2]1kMaNU2^1mMaNS2\\1PNdNP2Z1QNfNP2Y1PNiNR1EUOa1JjNQ1FTO`1KjNl0LXOY1J^N@=]12SOT1NkNCB\\1a0POS11iNDC[1b0nNS12iNDB]1c0jNU15eNDB^1f0dNW18bNEB\\1h0eNV19dNS1X2lNgMU1Z2kNeMG_O\\1n2kNfMU1Z2iNgMX1Y2gNgM\\1W2cNiM]1Y2aNgM_1Q3O1001O001O1O001_L_NY3i1dLVNP11T1l1lMRN00l03TOMQ2R2bNnME1IOP2S2TNnM1050FOP2S2oMTN4KLN:5e1W2TNiMN1O0o1V2SNjMN:n1V2RNjMn1b2SNRMl1m2UNSMk1o2SNQM4Lc1Z3\\NfLd1T3ZNPM1Le1S3[NRMh1o2XNPMh1W31LVNjL5O]1W3_NjL31\\1V3`NiL4O^1\\3^NdLe1U3ZNkL05i1o2XNUMe1W308eN\\La0e3ZOWLL5j0\\4XOQL"
+            }
+          }
+        ],
+        "confidence": 56.5,
+        "severity": "Medium",
+        "count": 3,
+        "score": 59
+      },
+      "overallScore": 93,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Vegetation growth detected — remove vegetation immediately and monitor root growth to prevent structural damage."
+      ]
+    },
+    "createdAt": "2026-08-17T13:38:12.336Z"
+  },
+  {
+    "id": "6f2fdde5-a9a0-483b-99f4-86dd1f30277e",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/6f2fdde5-a9a0-483b-99f4-86dd1f30277e/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 222,
+            "height": 134,
+            "x": 111,
+            "y": 80,
+            "confidence": 0.90625,
+            "class_id": 0,
+            "class": "Crack",
+            "detection_id": "6ebcc1fc-52a6-4e48-91c5-8d873e757785",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "_44_411OO1O1O010O00O200O0010O1O010O001N1O1O0000000M4O0O20O2IlKLU44501O000010O01O0010O010O0100000O100O01O1O01000O1001N10O100000O010O0010O010O10O100O010N1L4M3I7K50O1GVLIi32?000001O001O100O001O100O1O1000O1000000O01000O10O10O1O1O002O00O100000000O10O1000O10001N10000O1000000O01000O11O00O10000001O00001O1O00010O01O02OO01O00001O1O001N101O1N0kKDT4>00O01O01OO20000M2101OHkK1T4OmK1R4OPL0o31QLOn31TLMl33VLLj34VLLi34;0010O0100000LeKOZ41gK0X4OhK2X4NhK2Y440O0010O01OO02OO1O1IJnK8Q450N3J7O001N11000O100000000000000000O10OD"
+            }
+          }
+        ],
+        "confidence": 90.6,
+        "severity": "High",
+        "count": 1,
+        "score": 65
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "width": 9,
+            "height": 13,
+            "x": 157.5,
+            "y": 39.5,
+            "confidence": 0.546875,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "375fb0b3-4b38-42f6-9797-ca7009c15e77",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "gTf06]45K101O01O2IiKLZ4241Yd8"
+            }
+          },
+          {
+            "width": 27,
+            "height": 20,
+            "x": 89.5,
+            "y": 50,
+            "confidence": 0.55859375,
+            "class_id": 0,
+            "class": "Discoloration",
+            "detection_id": "70f3af3e-b9f9-4220-9cf3-cd7e71ec114d",
+            "parent_id": "image",
+            "rle_mask": {
+              "size": [
+                148,
+                222
+              ],
+              "counts": "WQ;2`43N1O1N2O2M3OO01OKmKKR45PLJo37PLJo3>O01000001O000O2H71O1O1000HhK2_4MjTa0"
+            }
+          }
+        ],
+        "confidence": 55.3,
+        "severity": "Medium",
+        "count": 2,
+        "score": 67
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 89,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Crack detected — recommend professional structural inspection and crack sealing.",
+        "Discoloration detected — investigate possible moisture or water intrusion."
+      ]
+    },
+    "createdAt": "2026-08-17T13:36:38.906Z"
+  },
+  {
+    "id": "d0f24b4f-6a88-497c-997b-199c6e669e6c",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odhisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/d0f24b4f-6a88-497c-997b-199c6e669e6c/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 65,
+            "y": 316,
+            "width": 116,
+            "height": 120,
+            "confidence": 0.44371068477630615,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "c2ecc974-a9b0-44db-85c0-e396294f8ea6"
+          }
+        ],
+        "confidence": 44.4,
+        "severity": "Low",
+        "count": 1,
+        "score": 79
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "overallScore": 97,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer."
+      ]
+    },
+    "createdAt": "2026-08-17T13:33:59.681Z"
+  },
+  {
+    "id": "ac19b6ba-1f7d-491c-bd5a-f1f8e291ece4",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/ac19b6ba-1f7d-491c-bd5a-f1f8e291ece4/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-14 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-13 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-15 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "success",
+        "detected": true,
+        "predictions": [
+          {
+            "x": 65,
+            "y": 316,
+            "width": 116,
+            "height": 120,
+            "confidence": 0.44371068477630615,
+            "class": "Destroyed",
+            "class_id": 0,
+            "detection_id": "bbfb8121-f677-40f7-beb6-41559b72c4f7"
+          }
+        ],
+        "confidence": 44.4,
+        "severity": "Low",
+        "count": 1,
+        "score": 79
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "success",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-18 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "overallScore": 90,
+      "overallStatus": "GOOD",
+      "recommendations": [
+        "Building damage detected — recommend detailed structural assessment by a conservation engineer."
+      ]
+    },
+    "createdAt": "2026-08-17T13:27:40.187Z"
+  },
+  {
+    "id": "ba31dca8-eb5f-4888-bd29-6d103ad5749b",
+    "monumentName": "Konark Sun Temple ",
+    "location": "Odisha ",
+    "inspectionDate": "2026-08-17",
+    "inspectorName": "Ishan ",
+    "notes": "",
+    "imagePath": "/uploads/ba31dca8-eb5f-4888-bd29-6d103ad5749b/original.jfif",
+    "results": {
+      "crack": {
+        "model": "Crack",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-14 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "corrosion": {
+        "model": "Corrosion",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-13 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "discoloration": {
+        "model": "Discoloration",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-15 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "buildingDamage": {
+        "model": "Building Damage",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Inference building-damage-detection-ahwco/2 HTTP 400: {\"message\":\"Could not load input image. Cause: Malformed base64 input image.\"}"
+      },
+      "spalling": {
+        "model": "Spalling",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Inference building-damage-detection-ahwco/2 HTTP 400: {\"message\":\"Could not load input image. Cause: Malformed base64 input image.\"}"
+      },
+      "vegetation": {
+        "model": "Vegetation Growth",
+        "status": "error",
+        "detected": false,
+        "predictions": [],
+        "severity": "None",
+        "count": 0,
+        "score": 100,
+        "message": "Workflow general-segmentation-api-18 HTTP 405: {\"detail\":\"Method Not Allowed\"}"
+      },
+      "overallScore": 0,
+      "overallStatus": "CRITICAL",
+      "recommendations": [
+        "No significant deterioration detected. Continue routine monitoring and preventive maintenance."
+      ]
+    },
+    "createdAt": "2026-08-17T13:22:11.889Z"
+  }
+]
