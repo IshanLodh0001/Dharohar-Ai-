@@ -9,7 +9,7 @@
  *                  Body: raw base64 string, Content-Type: application/x-www-form-urlencoded
  */
 
-const API_KEY = process.env.NEXT_PUBLIC_ROBOFLOW_API_KEY!;
+const API_KEY = process.env.ROBOFLOW_API_KEY!;
 const WORKFLOW_BASE = 'https://detect.roboflow.com';
 const INFER_BASE    = 'https://detect.roboflow.com';
 
@@ -145,6 +145,14 @@ async function runWorkflow(
   }
 
   const data = await response.json();
+  // DEBUG: write raw response to file so we can inspect the format
+  try {
+    const fs = await import('fs');
+    fs.writeFileSync(
+      process.cwd() + '/debug_workflow_' + workflowId + '.json',
+      JSON.stringify(data, null, 2)
+    );
+  } catch {}
   return extractPredictions(data, classes);
 }
 
@@ -167,6 +175,11 @@ async function runInference(modelId: string, base64Image: string): Promise<Robof
   }
 
   const data = await response.json();
+  // DEBUG
+  try {
+    const fs = await import('fs');
+    fs.writeFileSync(process.cwd() + '/debug_inference.json', JSON.stringify(data, null, 2));
+  } catch {}
   return extractPredictions(data);
 }
 

@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Layout from '../../components/Layout';
-import { getAllMonuments } from '../../lib/storage';
 
 function StatusBadge({ status }: { status: string }) {
   const map: Record<string, string> = {
@@ -28,14 +27,10 @@ export default function MonumentsPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    try {
-      const mons = getAllMonuments();
-      setMonuments(mons);
-    } catch (err) {
-      console.error(err);
-    } finally {
-      setLoading(false);
-    }
+    fetch('/api/monuments')
+      .then(r => r.json())
+      .then(setMonuments)
+      .finally(() => setLoading(false));
   }, []);
 
   return (

@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Layout from '../../components/Layout';
-import { getInspectionById } from '../../lib/storage';
 
 const MODEL_ICONS: Record<string, string> = {
   'Crack': '🔓', 'Corrosion': '🦠', 'Discoloration': '🎨',
@@ -49,15 +48,11 @@ export default function InspectionDetail() {
 
   useEffect(() => {
     if (!id) return;
-    try {
-      const result = getInspectionById(id as string);
-      if (!result) throw new Error('Not found');
-      setData(result);
-    } catch (e: any) {
-      setError(e.message);
-    } finally {
-      setLoading(false);
-    }
+    fetch(`/api/inspections/${id}`)
+      .then(r => { if (!r.ok) throw new Error('Not found'); return r.json(); })
+      .then(setData)
+      .catch(e => setError(e.message))
+      .finally(() => setLoading(false));
   }, [id]);
 
   if (loading) return (

@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Layout from '../components/Layout';
-import { getDashboardStats } from '../lib/storage';
 
 interface Stats {
   totalMonuments: number;
@@ -55,14 +54,11 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    try {
-      const data = getDashboardStats();
-      setStats(data);
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
+    fetch('/api/inspections?stats=true')
+      .then(r => r.json())
+      .then(setStats)
+      .catch(console.error)
+      .finally(() => setLoading(false));
   }, []);
 
   return (

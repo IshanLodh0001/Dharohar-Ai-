@@ -2,9 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRef, useState, useCallback, useEffect } from 'react';
 import Layout from '../components/Layout';
-import { v4 as uuidv4 } from 'uuid';
-import { analyzeImage } from '../lib/roboflow';
-import { saveInspection, InspectionRecord } from '../lib/storage';
 
 type StepStatus = 'pending' | 'running' | 'done' | 'error';
 
@@ -233,71 +230,51 @@ export default function InspectPage() {
     setError('');
     setSteps(initialSteps());
 
-    // Step 1 — upload / read image
+    // Step 1 — upload
     setStep('upload', 'running');
 
-    // Read image to base64
-    const reader = new FileReader();
-    reader.onload = async () => {
-      try {
-        const base64String = (reader.result as string).split(',')[1];
-        setStep('upload', 'done');
+    const fd = new FormData();
+    fd.append('image', imageFile);
+    Object.entries(form).forEach(([k, v]) => fd.append(k, v));
 
-        // Mark all model steps as running
-        const modelSteps = ['crack', 'corrosion', 'discoloration', 'buildingDamage', 'spalling', 'vegetation'];
-        modelSteps.forEach(id => setStep(id, 'running'));
+    // Mark all model steps as running
+    const modelSteps = ['crack', 'corrosion', 'discoloration', 'buildingDamage', 'spalling', 'vegetation'];
 
-        // Run AI analysis directly in browser
-        const results = await analyzeImage(base64String);
+    try {
+      setStep('upload', 'done');
+      modelSteps.forEach(id => setStep(id, 'running'));
 
-        // Mark model steps done/error based on real results
-        const stepMap: Record<string, string> = {
-          'crack': 'crack', 'corrosion': 'corrosion',
-          'discoloration': 'discoloration', 'buildingDamage': 'buildingDamage',
-          'spalling': 'spalling', 'vegetation': 'vegetation',
-        };
+      const resp = await fetch('/api/inspect', { method: 'POST', body: fd });
+      const data = await resp.json();
 
-        for (const [key, stepId] of Object.entries(stepMap)) {
-          const modelResult = (results as any)[key];
-          if (modelResult?.status === 'error') {
-            setStep(stepId, 'error', modelResult.message);
-          } else {
-            setStep(stepId, 'done', modelResult?.detected ? `${modelResult.count} detection(s)` : 'None detected');
-          }
+      if (!resp.ok) throw new Error(data.error || 'Analysis failed');
+
+      // Mark model steps done/error based on real results
+      const r = data.results;
+      const stepMap: Record<string, string> = {
+        'crack': 'crack', 'corrosion': 'corrosion',
+        'discoloration': 'discoloration', 'buildingDamage': 'buildingDamage',
+        'spalling': 'spalling', 'vegetation': 'vegetation',
+      };
+
+      for (const [key, stepId] of Object.entries(stepMap)) {
+        const modelResult = r[key];
+        if (modelResult?.status === 'error') {
+          setStep(stepId, 'error', modelResult.message);
+        } else {
+          setStep(stepId, 'done', modelResult?.detected ? `${modelResult.count} detection(s)` : 'None detected');
         }
-
-        setStep('condition', 'done', `Score: ${results.overallScore} — ${results.overallStatus}`);
-
-        // Save to local storage
-        const inspectionId = uuidv4();
-        const record: InspectionRecord = {
-          id: inspectionId,
-          monumentName: form.monument_name || 'Unknown Monument',
-          location: form.location,
-          inspectionDate: form.inspection_date,
-          inspectorName: form.inspector_name,
-          notes: form.notes,
-          imagePath: imagePreview, // Use object URL for current session preview (will not persist across refresh)
-          results,
-          createdAt: new Date().toISOString(),
-        };
-        saveInspection(record);
-
-        setResult({ success: true, inspectionId, results });
-      } catch (err: any) {
-        setError(err.message || 'Unknown error');
-        const modelSteps = ['crack', 'corrosion', 'discoloration', 'buildingDamage', 'spalling', 'vegetation'];
-        modelSteps.forEach(id => setStep(id, 'error'));
-        setStep('condition', 'error');
-      } finally {
-        setAnalyzing(false);
       }
-    };
-    reader.onerror = () => {
-      setError('Failed to read image file');
+
+      setStep('condition', 'done', `Score: ${r.overallScore} — ${r.overallStatus}`);
+      setResult(data);
+    } catch (err: any) {
+      setError(err.message || 'Unknown error');
+      modelSteps.forEach(id => setStep(id, 'error'));
+      setStep('condition', 'error');
+    } finally {
       setAnalyzing(false);
-    };
-    reader.readAsDataURL(imageFile);
+    }
   };
 
   const dotContent = (status: StepStatus) => {

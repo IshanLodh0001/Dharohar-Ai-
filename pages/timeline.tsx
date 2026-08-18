@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Layout from '../components/Layout';
-import { getAllMonuments, getAllInspections } from '../lib/storage';
 
 function StatusBadge({ status }: { status: string }) {
   const map: Record<string, string> = {
@@ -33,16 +32,13 @@ export default function TimelinePage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    try {
-      const mons = getAllMonuments();
-      const insps = getAllInspections();
+    Promise.all([
+      fetch('/api/monuments').then(r => r.json()),
+      fetch('/api/inspections').then(r => r.json()),
+    ]).then(([mons, insps]) => {
       setMonuments(mons);
       setInspections(insps);
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
+    }).finally(() => setLoading(false));
   }, []);
 
   // Group inspections by monument, sorted by date
