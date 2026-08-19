@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏛️ DharoharAI
 
-## Getting Started
+## AI-Powered Heritage Monument Inspection & Preservation
 
-First, run the development server:
+     for live demo :- http://localhost:3000/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> **Preserving the past with the intelligence of AI.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Team:** Legacy Forge
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+DharoharAI is an AI-powered heritage conservation platform designed to help identify, document, and monitor the physical condition of historical monuments.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The platform analyzes monument images to detect visible deterioration, assess monument condition, maintain digital inspection records, track changes over time, and provide AI-assisted conservation recommendations.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌟 Why DharoharAI?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Heritage monuments are continuously exposed to environmental conditions, aging, biological growth, and physical deterioration. Regular inspection is essential, but manual assessment can be time-consuming and difficult to scale.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+DharoharAI supports heritage inspection through AI-assisted visual analysis and digital condition monitoring.
 
-## Deploy on Vercel
+### Our Approach
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Detect Early → Assess Condition → Recommend Action → Monitor Changes → Preserve Heritage**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Key Features
+
+### 🔍 AI Physical Damage Detection
+
+DharoharAI analyzes monument images for multiple types of visible deterioration:
+
+- 🕸️ **Crack Detection**
+- 🟤 **Corrosion Detection**
+- 🎨 **Discoloration Detection**
+- 🧱 **Building Damage Detection**
+- 🪨 **Spalling Detection**
+- 🌿 **Vegetation Growth Detection**
+
+Multiple specialized computer-vision models are combined into a unified inspection workflow.
+
+---
+
+### 📊 Heritage Dashboard
+
+A centralized dashboard provides an overview of monument conditions and inspection activity.
+
+**Key information includes:**
+
+- Overall condition status
+- Detected damage categories
+- Inspection history
+- Monument information
+- Recent assessments
+
+---
+
+### 🗂️ Digital Documentation
+
+Create structured digital records for heritage inspections.
+
+Records can include:
+
+- Monument name
+- Location
+- Inspection date
+- Inspector details
+- Monument images
+- Detected conditions
+- Inspection notes
+- Condition assessment
+- Recommendations
+
+This creates a consistent digital record for future reference.
+
+---
+
+### 📈 Deterioration Timeline
+
+DharoharAI enables comparison of inspection records across different periods.
+
+The timeline can help identify whether a monument's condition is:
+
+- 🟢 **Stable**
+- 🔵 **Improving**
+- 🔴 **Deteriorating**
+
+Historical inspection records support better long-term conservation planning.
+
+---
+
+### 🛠️ Inspection Recommendations
+
+Based on detected conditions, the platform provides AI-assisted recommendations to help prioritize further inspection and maintenance.
+
+Examples include:
+
+- Structural inspection for significant cracks or damage
+- Vegetation removal and monitoring
+- Corrosion assessment
+- Investigation of possible moisture-related discoloration
+- Professional assessment of severe surface deterioration
+
+> **AI recommendations are intended to support conservation professionals and do not replace expert structural assessment.**
+
+---
+
+## 🧠 AI Detection Pipeline
+
+```text
+                 Monument Image
+                       │
+                       ▼
+                Image Processing
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+      Crack        Corrosion     Discoloration
+        │              │              │
+        ├──────────────┼──────────────┤
+        ▼              ▼              ▼
+ Building Damage    Spalling      Vegetation
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+               Detection Results
+                       │
+                       ▼
+              Condition Assessment
+                       │
+             ┌─────────┴─────────┐
+             ▼                   ▼
+       Digital Record      Recommendations
+             │
+             ▼
+       Heritage Timeline
